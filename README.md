@@ -2,14 +2,14 @@
 
 [![works badge](https://cdn.rawgit.com/nikku/works-on-my-machine/v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
 
-This utility library makes it easier to user [MongoDB](http://ww.mongodb.org) in your project.
+This utility library makes it easier to use [MongoDB](http://ww.mongodb.org) in your project.
 
 
 ## Dependencies & Requirements
 
 Java 8 is required.
 
-Following direct dependencies are use:
+Following direct dependencies are used:
 
 - `org.mongodb:mongo-java-driver:3.1.0`
 - `com.fasterxml.jackson.core:jackson-databind:2.6.2`
