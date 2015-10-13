@@ -37,7 +37,7 @@ public interface MongoService {
     MongoCollection<Document> getCollection(String collectionName);
 
     /**
-     * Get collection by {@link io.seventyone.mongoutils.annotation.MongoCollection} annotation.
+     * Get collection by {@link io.seventyone.mongoutils.annotations.MongoCollection} annotation.
      *
      * @param entityClass the entity class
      * @return the collection
@@ -45,15 +45,15 @@ public interface MongoService {
     MongoCollection<Document> getCollection(Class<?> entityClass);
 
     /**
-     * Setup a collection according to its {@link io.seventyone.mongoutils.annotation.MongoCollection} and
-     * {@link io.seventyone.mongoutils.annotation.MongoIndex} annotations.
+     * Setup a collection according to its {@link io.seventyone.mongoutils.annotations.MongoCollection} and
+     * {@link io.seventyone.mongoutils.annotations.MongoIndex} annotations.
      *
      * @param entityClass the new up collection
      */
     void setupCollection(Class<?> entityClass);
 
     /**
-     * Setup a collection by name and its {@link io.seventyone.mongoutils.annotation.MongoIndex} annotations.
+     * Setup a collection by name and its {@link io.seventyone.mongoutils.annotations.MongoIndex} annotations.
      *
      * @param entityClass the entity class
      * @param collectionName the collection name
@@ -61,15 +61,15 @@ public interface MongoService {
     void setupCollection(Class<?> entityClass, String collectionName);
 
     /**
-     * Setup the indexes of a collection by {@link io.seventyone.mongoutils.annotation.MongoCollection} annotation and
-     * its {@link io.seventyone.mongoutils.annotation.MongoIndex} annotations.
+     * Setup the indexes of a collection by {@link io.seventyone.mongoutils.annotations.MongoCollection} annotation and
+     * its {@link io.seventyone.mongoutils.annotations.MongoIndex} annotations.
      *
      * @param entityClass the new up indexes
      */
     void setupIndexes(Class<?> entityClass);
 
     /**
-     * Setup the indexes of a collection by name and its {@link io.seventyone.mongoutils.annotation.MongoIndex}
+     * Setup the indexes of a collection by name and its {@link io.seventyone.mongoutils.annotations.MongoIndex}
      * annotations.
      *
      * @param entityClass the entity class
@@ -78,7 +78,7 @@ public interface MongoService {
     void setupIndexes(Class<?> entityClass, String collectionName);
 
     /**
-     * Scan provided package for {@link io.seventyone.mongoutils.annotation.MongoCollection} annotations and setup the
+     * Scan provided package for {@link io.seventyone.mongoutils.annotations.MongoCollection} annotations and setup the
      * collections accordingly.
      *
      * @param packageName the package name

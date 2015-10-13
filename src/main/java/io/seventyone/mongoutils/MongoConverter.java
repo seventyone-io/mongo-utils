@@ -70,12 +70,12 @@ public interface MongoConverter {
     <T> T entityFrom(Document document, Class<T> entityClass);
 
     /**
-     * Converts the content of an {@link java.lang.Iterable<Document>} to a List of entities.
+     * Converts the content of an {@link java.lang.Iterable} to a List of entities.
      */
     <T> List<T> entitiesFrom(Iterable<Document> iterable, Class<T> entityClass);
 
     /**
-     * Converts the first document of an {@link java.lang.MongoIterable<Document>} to an entity.
+     * Converts the first document of an {@link com.mongodb.client.MongoIterable} to an entity.
      */
     <T> T firstEntityFrom(MongoIterable<Document> iterable, Class<T> entityClass);
 

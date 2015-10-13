@@ -48,7 +48,7 @@ public @interface MongoIndex {
     /**
      * Direction of the index.
      * <p>
-     * Default: {@link io.seventyone.mongoutils.annotations.MongoIndex.MongoIndexDirection.ASC}
+     * Default: {@link MongoIndexDirection}.ASC
      */
     int direction() default MongoIndexDirection.ASC;
 
