@@ -9,7 +9,7 @@ apply plugin: 'maven-publish'
 
 description = 'A simple MongoDB helper library'
 group = 'io.seventyone'
-version = '0.0.2'
+version = '0.0.3-SNAPSHOT'
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
