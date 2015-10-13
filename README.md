@@ -24,7 +24,7 @@ The library will be available from http://bintray.com
 Just add
 
 ```
-compile 'io.seventyone:mongo-utils:0.0.1'
+compile 'io.seventyone:mongo-utils:0.0.2'
 ```
 
 to your dependencies.
